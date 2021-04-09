@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cream-bg{
+    background-color: #F9F6F1;
+}
+.nav__content{
+    max-width: 1140px;
+}
+/* .customm-container{
+    max-width: 1140px;
+} */
+@media (min-width: 1400px){
+    .container{
+        max-width: 1140px !important;
+    }
+}
+
+.hero{
+    min-height: 610px;
+}
+.accent-btn{
+    background-color: #D7B399 !important;
+    color: #fff !important;
+    font-weight: 300 !important;
+    padding: 15px 20px !important;
+}
+.hero img{
+    width: 566px;
+    
+    object-fit: contain;
+}
+.carousel-item::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0,0,0,0.1);
+}
